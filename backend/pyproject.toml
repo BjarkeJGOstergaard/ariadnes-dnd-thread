@@ -1,0 +1,16 @@
+[project]
+name = "ariadnes-dnd-thread"
+version = "0.1.0"
+description = "Backend API for Ariadnes Dnd Thread (Campaign Memory)"
+authors = [
+    { name = "Bjarke Østergaard", email = "Bjarke.J.G.Oestergaard@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[project.scripts]
+ariadnes-dnd-thread = "ariadnes_dnd_thread:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"

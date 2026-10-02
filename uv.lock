@@ -2,7 +2,12 @@ version = 1
 revision = 3
 requires-python = ">=3.12"
 
+[manifest]
+members = [
+    "ariadnes-dnd-thread",
+]
+
 [[package]]
 name = "ariadnes-dnd-thread"
 version = "0.1.0"
-source = { virtual = "." }
+source = { editable = "backend" }
