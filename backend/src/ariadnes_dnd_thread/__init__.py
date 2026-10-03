@@ -1,2 +1,1 @@
-def main() -> None:
-    print("Hello from ariadnes-dnd-thread!")
+"""Backend for Ariadne's Dnd Thread."""
